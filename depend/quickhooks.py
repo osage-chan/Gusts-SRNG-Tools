@@ -1,6 +1,6 @@
 from discord_webhook import DiscordWebhook, DiscordEmbed
 from time import time as tick
-import _config as cf
+import config._config_1 as cf
 
 link = cf.webhook_link
 def rollfiftyk():

@@ -2,7 +2,7 @@ from detector.roll import is_black
 from depend import quickhooks
 from time import sleep
 from time import time as tick
-import _config as cf
+import config._config_1 as cf
 
 last = tick()-9
 while True:

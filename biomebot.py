@@ -1,10 +1,9 @@
 from depend import quickhooks
 from detector import biome
 from time import sleep
-import _config as cf
+import config._config_1 as cf
 
 last = ""
-
 while True:
     sleep(cf.biome_check_time_seconds)
     current = biome.get_biome()
@@ -15,4 +14,3 @@ while True:
             #print(current,current.lower(),current.lower() in ignorelist)
     if current != "N/A":
         last = current
-    

@@ -1,5 +1,5 @@
 import depend.screenshotter as screenshotter
-import _config as cf
+import config._config_1 as cf
 
 def is_black():
     ss = screenshotter.screenshot().resize((100,100))
