@@ -18,11 +18,11 @@
 ### GLOBALS ######
 ##################
 
+# Webhook for discord
 webhook_link = "https://discord.com/api/webhooks/0000000000000000000/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAaaaaaaaaaaaaaaaaaaaaaaa23232323232323"
 
-# Check tutorial/read.md if you don't know what to do with this one.
+# Check tutorial/read.md if you don't know what to do with these two.
 biome_bbox = (0,1309,477,1352)
-
 tesseract_exe_path = "C:/Program Files/Tesseract-OCR/tesseract.exe"
 
 ##################

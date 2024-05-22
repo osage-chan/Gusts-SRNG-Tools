@@ -18,3 +18,8 @@ What you need to put on the `biome_bbox` value, is the bounding box of the biome
 -
 If everything goes well, the bot should be able to read just this part of your Roblox. 
 ![An image of just the biome text](whatitreads.png)
+
+## antiafk.py
+- Doesn't use your mouse or keyboard, so it wont click on random stuff when you come back!
+### Installation
+`python -m pip install vgamepad` (use `python3` instead of `python` if the command doesnt work) and follow installation instructions that it opens and you're basically done!
