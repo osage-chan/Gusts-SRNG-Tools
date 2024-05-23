@@ -7,7 +7,7 @@ import config._config_1 as cf
 pytesseract.pytesseract.tesseract_cmd = cf.tesseract_exe_path
 #bbox = (0,1309,477,1352)
 bbox = cf.biome_bbox
-biomeregex = r"\[ (.+) \]"
+biomeregex = r"(\[|\|)\s(.+)\s(\]|\|)"
 
 def get_biome():
     biomeimg = screenshot().crop(bbox)

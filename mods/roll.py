@@ -5,7 +5,7 @@ from time import time as tick
 import config._config_1 as cf
 
 last = tick()-9
-while True:
+def check():
     if tick()-last > 10:
         perc = is_black()
         sleep(cf.aura_check_time_seconds)
