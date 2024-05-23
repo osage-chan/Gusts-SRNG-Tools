@@ -7,6 +7,7 @@ import config
 import config._config_1
 import detector
 import detector.biome
+from mods import storage
 import mods.antiafk
 import mods.biome
 
@@ -42,6 +43,10 @@ async def biome_announcer(interaction: nextcord.Interaction,toggle: bool):
             await interaction.send("Turned on biome announcer.")
         else:
             await interaction.send("Turned off biome announcer.")
+
+#@bot.slash_command(description="Shows Storage")
+#async def show_storage(interaction: nextcord.Interaction):
+#    interaction.send(file=nextcord.File(filename=storage.get()))
 
 @bot.slash_command(description="Gets the biome")
 async def get_biome(interaction: nextcord.Interaction):
