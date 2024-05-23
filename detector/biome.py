@@ -13,5 +13,5 @@ def get_biome():
     biomeimg = screenshot().crop(bbox)
     regex = re.findall(biomeregex,pytesseract.image_to_string(biomeimg))
     if len(regex) > 0:
-        return regex[0]
+        return list(regex[0])[1]
     return 'N/A'

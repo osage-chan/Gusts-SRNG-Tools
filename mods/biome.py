@@ -6,6 +6,7 @@ import config._config_1 as cf
 last = ""
 agreement = ""
 def check():
+    global last,agreement
     current = biome.get_biome()
     if current == agreement:
         if current != last:
