@@ -1,4 +1,5 @@
 # How to use
+- Install python 3 at [python.org](https://www.python.org/downloads/)
 - Make sure you have everything in requirements.txt downloaded. Run `python -m pip install -r requirements.txt` if not. (If the command doesn't work, use `python3` instead of `python`)
 - This installs virtual gamepad for Anti-AFK, so follow the instructions there. (it's actually called Nefarius or something)
 ## Biome Bot
