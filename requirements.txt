@@ -1,5 +1,7 @@
 discord-webhook
 pytesseract
+vgamepad
 nextcord
 pywin32
+pynput
 pillow
